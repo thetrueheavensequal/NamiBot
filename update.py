@@ -23,7 +23,7 @@ try:
 except:
     pass
 
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6129633611:AAGMDG9AKr6wUMRp2rjkgJ_LLarelNxjZTg')
 if len(BOT_TOKEN) == 0:
     log_error("BOT_TOKEN variable is missing! Exiting now")
     exit(1)
@@ -48,11 +48,11 @@ if UPDATE_PACKAGES.lower() == 'true':
     packages = [dist.project_name for dist in working_set]
     scall("pip install " + ' '.join(packages), shell=True)
 
-UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
+UPSTREAM_REPO = environ.get('UPSTREAM_REPO', 'https://thetrueheavensequale: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@github.com/thetrueheavensequal/NamiBot')
 if len(UPSTREAM_REPO) == 0:
    UPSTREAM_REPO = None
 
-UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
+UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', 'master')
 if len(UPSTREAM_BRANCH) == 0:
     UPSTREAM_BRANCH = 'master'
 
