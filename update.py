@@ -30,7 +30,7 @@ if len(BOT_TOKEN) == 0:
 
 bot_id = int(BOT_TOKEN.split(':', 1)[0])
 
-DATABASE_URL = environ.get('DATABASE_URL', '')
+DATABASE_URL = environ.get('DATABASE_URL', 'postgres://u2fltdsvgihjt9:pcc877710429a8f95c48f4f5fd76d5d8833a2c83ab882f9fdae98530c05d2a7f7@ec2-52-213-16-49.eu-west-1.compute.amazonaws.com:5432/d1gucuuqd813vf')
 if len(DATABASE_URL) == 0:
     DATABASE_URL = None
 
