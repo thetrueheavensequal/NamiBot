@@ -30,7 +30,7 @@ if len(BOT_TOKEN) == 0:
 
 bot_id = int(BOT_TOKEN.split(':', 1)[0])
 
-DATABASE_URL = environ.get('DATABASE_URL', 'mongodb://lon5-c13-0.mongo.objectrocket.com:43029,lon5-c13-2.mongo.objectrocket.com:43029,lon5-c13-1.mongo.objectrocket.com:43029/?replicaSet=c188f1f666fd4e9ead5e6bef8ff486a7&ssl=true')
+DATABASE_URL = environ.get('DATABASE_URL', 'mongodb+srv://plumblossomsword:Zfqa8vCRTbBWZSWm@yamai.5ceq94l.mongodb.net/?retryWrites=true&w=majority')
 if len(DATABASE_URL) == 0:
     DATABASE_URL = None
 
